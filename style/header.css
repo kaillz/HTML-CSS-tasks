@@ -1,0 +1,33 @@
+.con_head{
+    display: grid;
+    grid-template-columns: 4.5fr 1fr 4.5fr;
+    align-items: center;
+    justify-items: center;
+    border-bottom: 1px solid black;
+    height: 138px;
+    width: 100%;
+}
+.con_nav{
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+}
+
+.el_il{
+    color: #323232;
+    text-align: center;
+    font-family: Open Sans;
+    font-size: 16px;
+    line-height: 24px;
+    text-decoration: none;
+    margin:60px;
+}
+
+li{
+    margin: 0px;
+    padding: 0px;
+}
+ul{
+    margin: 0px;
+    padding: 0px;
+}
