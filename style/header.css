@@ -10,10 +10,9 @@
 .con_nav{
     display: flex;
     align-items: center;
-    list-style-type: none;
 }
 
-.el_il{
+.el_li_header{
     color: #323232;
     text-align: center;
     font-family: Open Sans;
@@ -23,11 +22,3 @@
     margin:60px;
 }
 
-li{
-    margin: 0px;
-    padding: 0px;
-}
-ul{
-    margin: 0px;
-    padding: 0px;
-}

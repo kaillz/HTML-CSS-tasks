@@ -3,155 +3,200 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style/footer.css">
+    <link rel="stylesheet" type="text/css" href="style/header.css">
+    <link rel="stylesheet" type="text/css" href="style/master_class.css">
+    <link href='https://fonts.googleapis.com/css?family=Tenor Sans' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css?family=Open Sans' rel='stylesheet'>
     <title>Реставрация мебели</title>
 </head>
 <body>
     <header>
-        <nav>
-            <ul>
-                <li><a href="master_class.html">Мастер-класс</a></li>
-                <li><a href="mebel.html">Мебель на заказ</a></li>
+        <nav class="con_head">
+            <ul class="con_nav">
+                <li><a class="el_li_header" href="master_class.html">Мастер-класс</a></li>
+                <li><a class="el_li_header" href="mebel.html">Мебель на заказ</a></li>
             </ul>
-            <ul>
-                <li><a href="">Контакты</a></li>
-                <li><a href="about_us.html">О нас</a></li>
+            <div><a href="main.html"><img src="img/logo.png"></a></div>
+            <ul class="con_nav">
+                <li><a class="el_li_header" href="">Контакты</a></li>
+                <li><a class="el_li_header" href="about_us.html">О нас</a></li>
             </ul>
         </nav>
     </header>
-    <div>
+    <div class="mcon_front">
         <h1>Нам доверяют мебель с историей в 120 лет</h1>
-        <button>Смотреть мастер-классы</button>
+        <button class="button_style">Смотреть мастер-классы</button>
     </div>
     <main>
-        <section>
-            <h2>наши работы</h2>
-            <table>
-                <tbody>
-                    <tr>
-                        <td>
-                            <p>До</p>
-                        </td>
-                        <td>
-                            <p>после</p>
-                        </td>
-                        <td>
-                            <p>До</p>
-                        </td>
-                        <td>
-                            <p>после</p>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>
-                            <p>До</p>
-                        </td>
-                        <td>
-                            <p>после</p>
-                        </td>
-                        <td>
-                            <p>До</p>
-                        </td>
-                        <td>
-                            <p>после</p>
-                        </td>
-                    </tr>
-                </tbody>
-            </table>
-            <button>Смотреть больше примеров</button>
-        </section>
-        <section>
-            <h2>Какие техники изучите на МК</h2>
-            <div>
-                <p>Снятие старой краски</p>
-            </div>
-            <div>
-                <p>Устранение царапин и мелких дефектов</p>
-            </div>
-            <div>
-                <p>Ремонт маленьких и больших сколов</p>
-            </div>
-            <div>
-                <p>Ремонт поломанной и расклеившейся мебели</p>
-            </div>
-            <div>
-                <p>Замена старых поврежденных деталей</p>
-            </div>
-            <div>
-                <p>Приемы и идеи декора. Улучшение дизайна старой мебели</p>
-            </div>
-            <div>
-                <p>Покраска изделия</p>
-            </div>
-        </section>
-        <section>
-            <h2>Подари вторую жизнь старой мебели и сохрани историю вашей семьи</h2>
-            <h3>Мастер-классы по реставрации мебели</h3>
-            <table>
-                <tbody>
-                    <tr>
-                        <td>
-                            <p>Буфет</p>
-                        </td>
-                        <td>
-                            <p>Сундук</p>
-                        </td>
-                        <td>
-                            <p>Комод</p>
-                        </td>
-                        <td>
-                            <p>Советское кресло</p>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>
-                            <p>Стол</p>
-                        </td>
-                        <td>
-                            <p>Стул</p>
-                        </td>
-                        <td>
-                            <p>Обивка стула</p>
-                        </td>
-                        <td>
-                            <p>Ремонт стула</p>
-                        </td>
-                    </tr>
-                </tbody>
-            </table>
-            <h3>Мастер-классы по столярному делу</h3>
-            <div>
+        <section class="mcon_main1">
+            <h2 class="titletext_style">Наши работы</h2>
+            <div class="mcon_main1_grid">   
                 <div>
+                    <img src="img/do1.png">
+                    <p>До</p>
+                </div>
+                <div>
+                    <img src="img/posle1.png">
+                    <p>После</p>
+                </div>
+                <div>
+                    <img src="img/do2.png">
+                    <p>До</p>
+                </div>
+                <div>
+                    <img src="img/posle2.png">
+                    <p>После</p>
+                </div>
+                <div>
+                    <img src="img/do3.png">
+                    <p>До</p>
+                </div>
+                <div>
+                    <img src="img/posle3.png">
+                    <p>После</p>
+                </div>
+                <div>
+                    <img src="img/do4.png">
+                    <p>До</p>
+                </div>
+                <div>
+                    <img src="img/posle4.png">
+                    <p>После</p>
+                </div>
+            </div>
+            <button class="button_style1 button_margin1">Смотреть больше примеров</button>
+        </section>
+        <section class="mcon_circle_list">
+            <h2 class="titletext_style">Какие техники изучите на МК</h2>
+            <div class="circle_mcon">
+                <ul>
+                    <div class="line"></div>
+                    <li>
+                        <div class="circle">1</div>
+                        <p class="text_style">Снятие старой краски</p>
+                    </li>
+                    <li>
+                        <div class="circle">2</div>
+                        <p class="text_style">Устранение царапин и мелких дефектов</p>
+                    </li>
+                    <li>
+                        <div class="circle">3</div>
+                        <p class="text_style">Ремонт маленьких и  больших сколов</p>
+                    </li>
+                    <li>
+                        <div class="circle">4</div>
+                        <p class="text_style">Ремонт поломанной и расклеившейся мебели</p>
+                    </li>
+                    <li>
+                        <div class="circle">5</div>
+                        <p class="text_style">Замена старых поврежденных деталей</p>
+                    </li>
+                    <li>
+                        <div class="circle">6</div>
+                        <p class="text_style">Приемы и идеи декора. Улучшение дизайна старой мебели</p>
+                    </li>
+                    <li>
+                        <div class="circle">7</div>
+                        <p class="text_style">Покраска изделия</p>
+                    </li>
+                </ul>
+            </div>
+        </section>
+        <div class="mcon_main3">
+            <h2>Подари вторую жизнь старой мебели<br>и сохрани историю вашей семьи</h2>
+        </div>
+        <section class="mcon_main1">
+            <h2 class="titletext_style">Мастер-классы по реставрации мебели</h2>
+            <div class="mcon_main1_grid">
+                <div>
+                    <img src="img/bufet.png">
+                    <p>Буфет</p>
+                </div>
+                <div>
+                    <img src="img/chest.png">
+                    <p>Сундук</p>
+                </div>
+                <div>
+                    <img src="img/dresser.png">
+                    <p>Комод</p>
+                </div>
+                <div>
+                    <img src="img/sovchair.png">
+                    <p>Советское кресло</p>
+                </div>       
+                <div>
+                    <img src="img/table.png">
+                    <p>Стол</p>
+                </div>
+                <div>
+                    <img src="img/chair1.png">
+                    <p>Стул</p>
+                </div>
+                <div>
+                    <img src="img/obchair.png">
+                    <p>Обивка стула</p>
+                </div>
+                <div>
+                    <img src="img/rechair.png">
+                    <p>Ремонт стула</p>
+                </div>
+            </div>
+        </section>
+        <section class="mcon_main4">
+            <h2 class="titletext_style">Мастер-классы по столярному делу</h2>
+            <div class="mcon_main4_grid">
+                <div>
+                    <img src="img/contable.png">
                     <p>Консольный столик</p>
                 </div>
                 <div>
+                    <img src="img/stolar.png">
                     <p>Столярное дело для начинающих</p>
                 </div>
             </div>
-            <h3>Руководство по редизайну деревянной мебели</h3>
-            <p>Здесь мы собрали всю информацию от подбора инструментов и материалов до сборки мебели и фурнитуры. Чтобы вы самостоятельно могли разобраться с нюансами работы со старой мебелью из дерева. Наше руководство непременно станет вашей настольной книгой по реставрации мебели.</p>
-            <button>Подробнее</button>
+        </section>
+        <section class="mcon_main5">
+            <div class="mcon_main5_grid">
+                <div>
+                    <h2 class="titletext_style">Руководство по редизайну<br>деревянной мебели</h2>
+                    <p>Здесь мы собрали всю информацию от подбора инструментов и<br>
+                        материалов до сборки мебели и фурнитуры. Чтобы вы<br>
+                        самостоятельно могли разобраться с нюансами работы со старой<br>
+                        мебелью из дерева. Наше руководство непременно станет вашей<br>
+                        настольной книгой по реставрации мебели.</p>
+                    <button>Подробнее</button>
+                </div>
+                <img class="img_style">
+            </div>
         </section>
     </main>
     <footer>
-        <small>
-            ИП Колодезников-Матчитов Н.И.
-            ИНН 143515646663
-        </small>
-        <ul>
-            <li><a href="master_class.html">Мастер-классы</a></li>
-            <li><a href="mebel.html">Мебель на заказ</a></li>
-            <li><a href="#">Контакты</a></li>
-            <li><a href="about_us.html">о нас</a></li>
-        </ul>
-        <ul>
-            <li><a href="#">Политика кофиденциальности</a></li>
-            <li><a href="#">Договор оферты</a></li>
-        </ul>
-        <ul>
-            <li><a href="#"><img src="tg"></a></li>
-            <li><a href="#"><img src="inst"></a></li>
-            <li><a href="#"><img src="wa"></a></li>
-        </ul>
+        <div class="con_footer">
+            <div class="footer_elements">
+                <div>
+                    ИП Колодезников-Матчитов Н.И.<br>
+                    ИНН 143515646663
+                </div>
+                <div>
+                    <a href="master_class.html">Мастер-классы</a>
+                    <a href="main.html">Мебель на заказ</a>
+                </div>
+                <div>
+                    <a href="#">Контакты</a>
+                    <a href="about_us.html">О нас</a>
+                </div>
+                <div>
+                    <a href="#">Политика кофиденциальности</a>
+                    <a href="#">Договор оферты</a>
+                </div>
+                <small class="con_footer_img">
+                    <a href="#"><img src="img/tg1.png" ></a>
+                    <a href="#"><img src="img/inst1.png" ></a>
+                    <a href="#"><img src="img/wa1.png" ></a>
+                </small>
+            </div>
+        </div>
     </footer>
 </body>
 </html>
