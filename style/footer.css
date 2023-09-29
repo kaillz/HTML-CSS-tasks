@@ -16,7 +16,7 @@
 }
 .footer_elements{
     width: 1200px;
-    margin:auto;
+    margin:140px;
     padding-top: 100px;
     display: flex;
     flex-direction: row;
