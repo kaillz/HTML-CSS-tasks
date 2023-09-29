@@ -1,0 +1,74 @@
+.mebcon_front{
+    background-image: url("../img/mebelph.png");
+    width: 1440px;
+    height: 639px;
+    text-align: center;
+}
+.mebcon_front p{
+    color: #F6F6F6;
+    font-family: Open Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    margin: 0;
+    padding-top: 218px;
+}
+.mebcon_front h1{
+    color: #F6F6F6;
+    font-family: Tenor Sans;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 72px;
+    margin: 0;
+}
+.mebcon_front h2{
+    color: #F6F6F6;
+    font-family: Tenor Sans;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 72px;
+    margin: 0;
+    margin-top: 25px;
+}
+.mebcon_front button{
+    width: 328px;
+    height: 60px;
+    background: #F6F6F6;
+    color: #715B4B;
+    font-family: Open Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 24px;
+    border: none;
+    margin-top: 90px;
+}
+
+
+
+.margin_top218{
+    margin-top: 218px;
+}
+.margin_top25{
+    margin-top: 25px;
+}
+
+
+
+body{
+    background: #F3EFEA;
+    max-width: 1440px;
+    margin: 0 auto;
+}
+li{
+    margin: 0px;
+    padding: 0px;
+    list-style-type: none;
+}
+ul{
+    margin: 0px;
+    padding: 0px;
+}

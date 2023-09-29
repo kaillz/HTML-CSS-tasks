@@ -3,25 +3,32 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style/footer.css">
+    <link rel="stylesheet" type="text/css" href="style/header.css">
+    <link rel="stylesheet" type="text/css" href="style/mebel.css">
+    <link href='https://fonts.googleapis.com/css?family=Tenor Sans' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css?family=Open Sans' rel='stylesheet'>
     <title>Реставрация мебели</title>
 </head>
 <body>
     <header>
-        <nav>
-            <ul>
-                <li><a href="master_class.html">Мастер-класс</a></li>
-                <li><a href="mebel.html">Мебель на заказ</a></li>
+        <nav class="con_head">
+            <ul class="con_nav">
+                <li><a class="el_li_header" href="master_class.html">Мастер-класс</a></li>
+                <li><a class="el_li_header" href="mebel.html">Мебель на заказ</a></li>
             </ul>
-            <ul>
-                <li><a href="">Контакты</a></li>
-                <li><a href="about_us.html">О нас</a></li>
+            <div><a href="main.html"><img src="img/logo.png"></a></div>
+            <ul class="con_nav">
+                <li><a class="el_li_header" href="">Контакты</a></li>
+                <li><a class="el_li_header" href="about_us.html">О нас</a></li>
             </ul>
         </nav>
     </header>
-    <div>
+    <div class="mebcon_front">
         <p>Воплотим вашу любую задумку в реальность</p>
-        <h1>Столярная мастерская NIKASON BRAND</h1>
-        <button>заказать мебель</button>
+        <h1>Столярная мастерская</h1>
+        <h2>NIKASON BRAND</h2>
+        <button>Заказать мебель</button>
     </div>
     <main>
         <section>
@@ -107,25 +114,31 @@
         </section>
     </main>
     <footer>
-        <small>
-            ИП Колодезников-Матчитов Н.И.
-            ИНН 143515646663
-        </small>
-        <ul>
-            <li><a href="master_class.html">Мастер-классы</a></li>
-            <li><a href="mebel.html">Мебель на заказ</a></li>
-            <li><a href="#">Контакты</a></li>
-            <li><a href="about_us.html">о нас</a></li>
-        </ul>
-        <ul>
-            <li><a href="#">Политика кофиденциальности</a></li>
-            <li><a href="#">Договор оферты</a></li>
-        </ul>
-        <ul>
-            <li><a href="#"><img src="tg"></a></li>
-            <li><a href="#"><img src="inst"></a></li>
-            <li><a href="#"><img src="wa"></a></li>
-        </ul>
+        <div class="con_footer">
+            <div class="footer_elements">
+                <div>
+                    ИП Колодезников-Матчитов Н.И.<br>
+                    ИНН 143515646663
+                </div>
+                <div>
+                    <a href="master_class.html">Мастер-классы</a>
+                    <a href="main.html">Мебель на заказ</a>
+                </div>
+                <div>
+                    <a href="#">Контакты</a>
+                    <a href="about_us.html">О нас</a>
+                </div>
+                <div>
+                    <a href="#">Политика кофиденциальности</a>
+                    <a href="#">Договор оферты</a>
+                </div>
+                <small class="con_footer_img">
+                    <a href="#"><img src="img/tg1.png" ></a>
+                    <a href="#"><img src="img/inst1.png" ></a>
+                    <a href="#"><img src="img/wa1.png" ></a>
+                </small>
+            </div>
+        </div>
     </footer>
 </body>
 </html>

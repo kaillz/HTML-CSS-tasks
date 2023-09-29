@@ -1,0 +1,14 @@
+body{
+    background: #F3EFEA;
+    max-width: 1440px;
+    margin: 0 auto;
+}
+li{
+    margin: 0px;
+    padding: 0px;
+    list-style-type: none;
+}
+ul{
+    margin: 0px;
+    padding: 0px;
+}
