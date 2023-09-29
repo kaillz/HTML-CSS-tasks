@@ -1,3 +1,99 @@
+.acon_front{
+    text-align: center;
+    margin-top: 120px;
+    margin-left: 140px;
+    margin-right: 140px;
+}
+.acon_main1{
+    display: flex;
+    flex-flow: row;
+    justify-content: space-between;
+    margin-top: 160px;
+}
+.acon_main1 div{
+    flex-flow: column;
+    justify-content: space-between;
+}
+.acon_main1 h2{
+    margin: 0;
+}
+.acon_main1 p{
+    margin: 0;
+    margin-top: 20px;
+}
+.acon_main2_grid{
+    display: grid;
+    grid-template-columns: auto 1fr;
+    margin-top: 160px;
+    margin-left: 140px;
+    margin-right: 140px;
+}
+.acon_main2_grid div{
+    margin-left: 40px;
+}
+.acon_main3{
+    margin-top: 160px;
+    margin-left: 140px;
+    margin-right: 140px;
+}
+.acon_main3 h3{
+    text-align: right;
+}
+.acon_main4{
+    margin-top: 160px;
+    margin-left: 140px;
+    margin-right: 140px;
+}
+.acon_main4 div{
+    margin-top: 100px;
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+    align-items: start;
+}
+.acon_main4 img{
+    margin-left: 15px;
+    margin-right: 15px;
+}
+.acon_main5{
+    margin-top: 160px;
+    margin-left: 140px;
+    margin-right: 140px;
+    margin-bottom: 240px;
+    text-align: center;
+}
+.acon_main5 button{
+    width: 245px;
+    height: 60px;
+    background: #A1B29F;
+    color: #F6F6F6;
+    text-align: center;
+    font-family: Open Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 24px;
+    border: none;
+    margin-top: 100px;
+}
+.acon_main5 h2{
+    display: flex;
+}
+
+
+
+.margin_top20{
+    margin-top: 20px;
+}
+.margin_top40{
+    margin-top: 40px;
+}
+.margin_top70{
+    margin-top: 70px;
+}
+
+
+
 body{
     background: #F3EFEA;
     max-width: 1440px;
@@ -11,4 +107,40 @@ li{
 ul{
     margin: 0px;
     padding: 0px;
+}
+h2{
+    color: #57463A;
+    font-family: Tenor Sans;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 72px;
+    margin: 0;
+}
+p{
+    color: #323232;
+    font-family: Open Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    margin: 0;
+}
+h4{
+    color: #000;
+    font-family: Tenor Sans;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 36px;
+    margin: 0;
+}
+h3{
+    color: #323232;
+    text-align: right;
+    font-family: Open Sans;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 36px;
 }
