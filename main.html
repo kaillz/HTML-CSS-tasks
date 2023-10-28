@@ -9,10 +9,6 @@
     <title>Реставрация мебели</title>
 </head>
 <body>
-    <script src="functions.js"></script>
-    <script>
-        alert(stringToLength('qwerty', 4, '0'));
-    </script>
     <header>
         <nav class="con_head">
             <ul class="con_nav">
@@ -100,7 +96,9 @@
                         Никита - мастер по дереву, вся мебель делается его<br>
                         умелыми руками.
                     </p>
-                    <button class="button_style1">Подробнее о нас</button>
+                    <form action="about_us.html" target="_blank">
+                        <button class="button_style1">Подробнее о нас</button>
+                    </form>
                 </div>
             </div>
         </section>
@@ -120,7 +118,7 @@
                         Возможность создания своего неповторимого стиля,<br>
                         уникальность и неповторимость каждого изделия. 
                     </p>
-                    <button class="button_style1">Заказать мебель</button>
+                    <button class="button_style1" id="buyId">Заказать мебель</button>
                 </div>     
             </div>
             <div class="con_main4_grid background_D4CDC3">
@@ -134,7 +132,7 @@
                         обновлённым видом мебели, но и с теплотой помнить, что<br>
                         эта мебель была сделана талантливыми предками.
                     </p>
-                    <button class="button_style1">Купить мастер-класс</button>
+                    <button class="button_style1" id="buyMasterId">Купить мастер-класс</button>
                 </div>
             </div>
         </section>
@@ -151,6 +149,25 @@
                         </h3>
                         <img src="img/logo2.png">
                     </div>
+                </div>
+            </div>
+        </section>
+        <section>
+            <div class="modal_con" id="modelId">
+                <div class="modal_content">
+                    <button class="modal_close" id="modalcloseId">X</button>
+                    <form id="InputId">
+                        <h2>Оставьте данные и мы с вами свяжемся</h2>
+                        <p>Введите ваше имя</p>
+                        <div>
+                            <input class="inputField" data-name="1"/>
+                        </div>
+                        <p>Введите ваш номер</p>
+                        <div>
+                            <input class="inputField" data-phone-Length="11"/>
+                        </div>
+                        <button type="submit">Отправить заказ</button>
+                    </form>
                 </div>
             </div>
         </section>
@@ -185,5 +202,6 @@
             </div>
       </div>
     </footer>
+    <script src="script.js"></script>
 </body>
 </html>

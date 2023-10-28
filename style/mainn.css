@@ -520,6 +520,7 @@ h5{
     font-family: Open Sans;
     font-size: 16px;
     padding: 0;
+    cursor: pointer;
 }
 .button_style2{
     width: 328px;
@@ -532,6 +533,7 @@ h5{
     font-style: normal;
     font-weight: 700;
     padding: 0;
+    cursor: pointer;
 }
 .button_style3{
     width: 328px;
@@ -544,6 +546,7 @@ h5{
     font-style: normal;
     font-weight: 700;
     padding: 0;
+    cursor: pointer;
 }
 .video_style{
     margin-top: 100px;
@@ -570,6 +573,10 @@ h5{
     height: 102px;
     margin-left: 8px;
     margin-right: 8px;
+}
+.down_image_style:hover,
+.down_image_style:focus{
+    opacity: 0.7;
 }
 
 .borderstyle_right{
@@ -677,7 +684,66 @@ h5{
     margin: 0;
 }
 
+/* Модальное окно */
+.modal_con{
+    display: flex;
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100vw;
+    height: 100vh;
+    z-index: 9;
+    background-color: rgba(0, 0, 0, 0.8);
+    align-items: center;
+    justify-content: center;
+    visibility: hidden;
+    opacity: 0;
+}
+.modal_content{
+    display: grid;
+    position: relative;
+    max-width: 450px;
+    padding: 30px 20px 30px 20px;
+    z-index: 1;
+    background-color: white;
+    border-radius: 5%;
+    box-shadow: 0 0 30px 10px rgba(0, 0, 0, 0.2);
+}
+.modal_con.open{
+    visibility: visible;
+    opacity: 1;
+}
+.modal_close{
+    position: absolute;
+    top: 8px;
+    right: 8px;
+    border: none;
+    background-color: transparent;
+    padding: 5px;
+    cursor: pointer;
+    color: gray;
+}
+.modal_close:hover{
+    color:black;
+    transition: .45%;
+}
 
+.inputField {
+    display: grid;
+    max-width: 100%;
+    border: 1px solid #57463A;
+    border-radius: 0;
+    margin-bottom: 5px;
+    font-size: 20px;
+}
+.error .inputField {
+    border-color: red;
+}
+.errorLabel {
+    display: block;
+    color: red;
+    margin-bottom: 10px;
+}
 
 /* mobile */
 @media (max-width: 375px){
