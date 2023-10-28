@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="main.css">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <nav class="con_head">
+            <ul class="con_nav">
+                <li><a>Главная</a></li>
+                <li><a>Услуги</a></li>
+            </ul>
+            <img src="img/logo.png">
+            <ul class="con_nav">
+                <li><a>Отзывы</a></li>
+                <li><a>Контакты</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <h1>Клиенты о нас<h1>
+            <div>
+                <p>Светлана Иванова</p>
+                <p>31.01.2023</p>
+                <p>Текст отзыва</p>
+            </div>
+            <div>
+                <p>Василий Петров</p>
+                <p>20.03.2023</p>
+                <p>Текст отзыва</p>
+            </div>
+            <div>
+                <p>Иван Смернов</p>
+                <p>10.05.2023</p>
+                <p>Текст отзыва</p>
+            </div>
+            <button id="reviewBtn">Оставить отзыв</button>
+        </section>
+        <section class="con_gal">
+            <h2>Галлерея</h2>
+            <div class="con_gal_div">
+                <img class="main_image_style" src="img/port2.png">
+            </div>
+            <div class="con_gal_div">
+                <img class="down_image_style" src="img/port2.png">
+                <img class="down_image_style" src="img/port3.png">
+                <img class="down_image_style" src="img/port4.png">
+                <img class="down_image_style" src="img/port5.png">
+                <img class="down_image_style" src="img/port6.png">
+                <img class="down_image_style" src="img/port7.png">
+                <img class="down_image_style" src="img/port8.png">
+            </div>
+        </section>
+
+
+        <section class="modal_con" id="modelId">
+            <div class="modal_content">
+                <button class="modal_close" id="closeBtn">X</button>
+                <form id="InputId">
+                    <h2>Оставьте свой отзыв, чтобы улучшить качество нашей работы</h2>
+                    <p>Введите ваше имя</p>
+                    <input class="Input_field" data-name="1"/>
+                    <input class="Input_field" data-review="1"/>
+                    <button type="submit">Отправить отзыв</button>
+                </form>
+            </div>   
+        </section>
+    </main>
+    <footer>
+        <div class="con_footer">
+            <div class="footer_elements">
+                <div>
+                    ИП Колодезников-Матчитов Н.И.<br>
+                    ИНН 143515646663
+                </div>
+                <div>
+                    <small class="con_footer_img">
+                        <a href="#"><img src="img/tg1.png" ></a>
+                        <a href="#"><img src="img/inst1.png" ></a>
+                        <a href="#"><img src="img/wa1.png" ></a>
+                    </small>
+                    <p>+7 967 927-22-27</p>
+                </div>  
+            </div>
+      </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
